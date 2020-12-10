@@ -49,7 +49,7 @@
     </header>
 
 
-    <section id="about-me-section" class="mt-5 mb-5 scroll-section" data-section-name="about-me">
+    <section id="about-me-section" class=" mb-5 scroll-section" data-section-name="about-me">
         <div class="col section-block">
             <div class="row d-flex">
                 <div id="about-me-img" class="col-5">
@@ -59,7 +59,7 @@
                 </div>
                 <div id="about-me-content" class="col-5">
                     <div class="panel text-left">
-                        <h2>About me</h2>
+                        <h2 style="color: white !important">About me</h2>
                         <p class="pt-2 lead text-justify">Hello there!!
                             I’m Namratha, or Nam for short. I’m a fullstack developer speciailizing in JavaScript
                             and the NERDS stack (Node.js, Express, React, and Database using SQL).</p>
@@ -87,10 +87,9 @@
             </div>
         </div>
     </section>
-    <hr>
     <section id="experience-section" class="mt-5 scroll-section" data-section-name="experience">
         <div class="col section-block">
-            <h3 class="text-center mt-2 mb-5">EDUCATION</h3>
+            <h3 style="font-family: Saira" class="text-center mt-2 mb-5">Education</h3>
             <div class="row ml-5 mr-5">
                 <div class="col-12">
                     <div class="main-timeline">
@@ -103,6 +102,7 @@
                                 <p class="description">
                                     Certificate in Full Stack Web Development, Software Engineering
                                 </p>
+                                <p class="description">August 2020 - October 2020</p>
                             </a>
                         </div>
                         <div class="timeline">
@@ -115,6 +115,7 @@
                                 <p class="description text-right">
                                     Master of Science, Electrical Engineering
                                 </p>
+                                <p class="description text-right">August 2014 - May 2017</p>
                             </a>
                         </div>
 
@@ -128,6 +129,7 @@
                                 <p class="description">
                                     Bachelor of Engineering, Electronics & Communication Engineering
                                 </p>
+                                <p class="description">August 2010 - October 2014</p>
                             </a>
                         </div>
                     </div>
@@ -136,9 +138,9 @@
         </div>
     </section>
     <hr>
-    <section id="projects-section" class="mt-5 scroll-section" data-section-name="projects">
+    <section id="projects-section" class="scroll-section" data-section-name="projects">
         <div class="col section-block">
-            <h3 class="text-center mt-2 mb-5">PROJECTS</h3>
+            <h3 class="text-center mt-2 mb-5">Projects</h3>
             <div class="row ml-5 mr-5">
                 <div class="col-8 offset-2">
                     <div class="col m-1 d-flex">
@@ -146,13 +148,14 @@
                             <img src="assets/proj-1.png" class="img-fluid" alt="proj img 1">
                         </div>
                         <div class="row ml-4">
+                            <h3>ByteDance Revolution</h3>
                             <p class="text-justify">ByteDance Revolution is an interactive dance web application built
                                 using Node.js
                                 with Google Firebase, React and Posenet.
                                 The Posenet model was used from TensorFlow with React hooks on Audio and Webcam
                                 components to compare and grade players on pre-set dance routines, calculate and display
                                 scores on. The project workflow was managed using GitHub for branch control, merges and
-                                tasks. Technologies used: JavaScript, Node.js, React, Firebase, TensorFlow, Posenet
+                                tasks.
                                 <br>&nbsp;
                             </p>
                             <div class="col p-0">
@@ -175,24 +178,25 @@
                             <img src="assets/proj-2.png" class="img-fluid" alt="proj img 2">
                         </div>
                         <div class="row ml-4">
-                            <p class="text-justify">ByteDance Revolution is an interactive dance web application built
-                                using Node.js
-                                with Google Firebase, React and Posenet.
-                                The Posenet model was used from TensorFlow with React hooks on Audio and Webcam
-                                components to compare and grade players on pre-set dance routines, calculate and display
-                                scores on. The project workflow was managed using GitHub for branch control, merges and
-                                tasks. Technologies used: JavaScript, Node.js, React, Firebase, TensorFlow, Posenet
+                            <h3>Grace Shopper</h3>
+                            <p class="text-justify">A fully functional mock e-commerce site selling varieties of pasta,
+                                built in a span of 4 days and deployed on Heroku. Worked closely with React
+                                components/Redux store for
+                                cart/checkout logic for a smooth user and guest experience. Also, integrated Google
+                                OAuth with Passport to enable logins using google accounts.
                                 <br>&nbsp;
                             </p>
                             <div class="col p-0">
                                 <p class="float-left mb-0">
-                                    Technologies Used: Javascript, Nodejs, tensorflow, etc
-                                </p>
+                                    Technologies used: Front-end built with React, Redux,
+                                    React-Redux, Redux-Thunk, CSS
+                                    Node.js backend: Express.js, Sequelize ORM, & Postgres rDBMS, Passport and
+                                    GoogleOAuth. </p>
                                 <div class="float-right project-links">
-                                    <a href="https://bytedancerev.web.app" target=”_blank” class="fas fa-link ml-2 mr-2"
-                                        style="color:gray"></a>
-                                    <a href="https://github.com/HarryPotterAndThePhoenix-Sort/ByteDanceRevolution"
-                                        target=”_blank” class="fab fa-github ml-2 mr-2" style="color:gray"></a>
+                                    <a href="https://kitchen-ecommerce-store.herokuapp.com/" target=”_blank”
+                                        class="fas fa-link ml-2 mr-2" style="color:gray"></a>
+                                    <a href="https://github.com/2008-Ramsey-chefs/KitchenShopper" target=”_blank”
+                                        class="fab fa-github ml-2 mr-2" style="color:gray"></a>
                                 </div>
                             </div>
                         </div>
@@ -203,24 +207,28 @@
                             <img src="assets/proj-3.jpg" class="img-fluid" alt="proj img 3">
                         </div>
                         <div class="row ml-4">
-                            <p class="text-justify">ByteDance Revolution is an interactive dance web application built
-                                using Node.js
-                                with Google Firebase, React and Posenet.
-                                The Posenet model was used from TensorFlow with React hooks on Audio and Webcam
-                                components to compare and grade players on pre-set dance routines, calculate and display
-                                scores on. The project workflow was managed using GitHub for branch control, merges and
-                                tasks. Technologies used: JavaScript, Node.js, React, Firebase, TensorFlow, Posenet
+                            <h3>Stackbot Inc.</h3>
+                            <p class="text-justify">Robotics Inc. is a CRUD web app built over the course of one week
+                                while attending
+                                Fullstack Academy. This was a solo project assigned to students immediately after we had
+                                finished learning all the full stack technologies in the FSA curriculum. Tech used
+                                includes
+                                React, Redux, Express, Sequelize and PostgreSQL. This my first full stack web app built
+                                from start to finish. It served me by
+                                helping to solidify all of the concepts, at every level of the stack, that I had learned
+                                in the
+                                prior six weeks or so.
                                 <br>&nbsp;
                             </p>
                             <div class="col p-0">
                                 <p class="float-left mb-0">
-                                    Technologies Used: Javascript, Nodejs, tensorflow, etc
+                                    Technologies Used: Javascript, Nodejs, React, Redux, Sequelize, PostgreSQL etc
                                 </p>
                                 <div class="float-right project-links">
-                                    <a href="https://bytedancerev.web.app" target=”_blank” class="fas fa-link ml-2 mr-2"
-                                        style="color:gray"></a>
-                                    <a href="https://github.com/HarryPotterAndThePhoenix-Sort/ByteDanceRevolution"
-                                        target=”_blank” class="fab fa-github ml-2 mr-2" style="color:gray"></a>
+                                    <a href="https://robots-jpfp.herokuapp.com/" target=”_blank”
+                                        class="fas fa-link ml-2 mr-2" style="color:gray"></a>
+                                    <a href="https://github.com/namrathapmd/2008-FSA-RM-WEB-FT-JPFP" target=”_blank”
+                                        class="fab fa-github ml-2 mr-2" style="color:gray"></a>
                                 </div>
                             </div>
                         </div>
@@ -231,24 +239,25 @@
                             <img src="assets/proj-4.png" class="img-fluid" alt="proj img 4">
                         </div>
                         <div class="row ml-4">
-                            <p class="text-justify">ByteDance Revolution is an interactive dance web application built
-                                using Node.js
-                                with Google Firebase, React and Posenet.
-                                The Posenet model was used from TensorFlow with React hooks on Audio and Webcam
-                                components to compare and grade players on pre-set dance routines, calculate and display
-                                scores on. The project workflow was managed using GitHub for branch control, merges and
-                                tasks. Technologies used: JavaScript, Node.js, React, Firebase, TensorFlow, Posenet
+                            <h3>Configurable Verification of RISC processors</h3>
+                            <p class="text-justify"> This paper presents a configurable verification environment for
+                                RISC processors which
+                                was presented as my Graduate Paper at the end of my masters. The
+                                verification environment is developed in SystemVerilog. The verification environment
+                                will validate the performance of the RISC processors with a micro-architectural model
+                                developed in SystemC. The system also has an intelligent Instruction Generator that
+                                generates random sequences of
+                                instructions. All verification system components are configured using a common RISC
+                                processor architecture configuration control file.
                                 <br>&nbsp;
                             </p>
                             <div class="col p-0">
                                 <p class="float-left mb-0">
-                                    Technologies Used: Javascript, Nodejs, tensorflow, etc
+                                    Technologies Used: SystemVerilog, SystemC, Perl etc
                                 </p>
                                 <div class="float-right project-links">
-                                    <a href="https://bytedancerev.web.app" target=”_blank” class="fas fa-link ml-2 mr-2"
-                                        style="color:gray"></a>
-                                    <a href="https://github.com/HarryPotterAndThePhoenix-Sort/ByteDanceRevolution"
-                                        target=”_blank” class="fab fa-github ml-2 mr-2" style="color:gray"></a>
+                                    <a href="https://scholarworks.rit.edu/theses/9420/" target=”_blank”
+                                        class="fas fa-link ml-2 mr-2" style="color:gray"></a>
                                 </div>
                             </div>
                         </div>

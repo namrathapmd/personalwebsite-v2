@@ -73,6 +73,7 @@ hr {
 }
 /*cursor typing and deleting on homepage */
 .typed-cursor {
+    font-family: monospace;
     opacity: 1;
     color: white;
     font-weight: 100;
@@ -179,7 +180,7 @@ hr {
 }
 .main-timeline .description{
     color: #777;
-    font-size: 13px;
+    font-size: 16px;
     letter-spacing: 1px;
     margin: 0;
 }
@@ -228,8 +229,13 @@ hr {
     bottom: 0px;
 }
 
-.project-links {
-    font-size:1.3em;
+.project-links a{
+    text-decoration: none;
+    font-size: 2em;
+}
+
+.project-links a:hover {
+    color: black !important
 }
 
 
@@ -242,4 +248,24 @@ footer {
 .contact-me-logos {
     font-size: 3em;
     text-decoration: none !important;
+}
+
+
+/* project section */
+#projects-section {
+    margin-bottom: 11em;
+    margin-top: 10em;
+}
+
+#projects-section h3 {
+    font-family: Saira;
+    font-size: 1.62671rem;
+    font-weight: 700;
+    line-height: 1.8
+}
+
+#projects-section p {
+    font-family: Roboto;
+    font-weight: 400;
+    color: rgba(0,0,0,.8);
 }
